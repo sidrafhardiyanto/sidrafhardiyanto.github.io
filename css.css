@@ -1,54 +1,54 @@
-        body{
-            font-family: "Poppins", sans-serif;
-        }
-        
-        h1{
-            color: #00938d;
-        }
+body{
+    font-family: "Poppins", sans-serif;
+}
 
-        b{
-            color: #ff9567;
-        }
+h1{
+    color: #00938d;
+}
 
-        .gambarprofil{
-            margin-top: 10px;
-            width: 40%;
-            height: auto;
-            border-radius: 10px;
-        }
+b{
+    color: #ff9567;
+}
 
-        .title{
-            text-align: center;
-            background-color: #f9efc4;
-            padding-top: 25px;
-            padding-bottom: 25px;
-        }
+.gambarprofil{
+    margin-top: 10px;
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
 
-        .title p{
-            padding-left: 90px;
-            padding-right: 90px;
-        }
-        
-        .link-keluar ul li{
-            position: relative;
-            display: inline-block;
-            list-style: none;
-            padding: 8px
-        }
-        
-        .link-keluar p{
-            position: absolute;
-            color: black;
-        }
-        
-        .loremipsum{
-            text-align: center;
-            background-color: #efe6d2;
-            padding-top: 25px;
-            padding-bottom: 25px;
-        }
+.title{
+    text-align: center;
+    background-color: #f9efc4;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
-        .loremipsum p{
-            margin-left: 15%;
-            margin-right:  15%;
-        }
+.title p{
+    width: 600px;
+    margin: auto;
+}
+
+.link-keluar ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 8px;
+}
+
+.link-keluar p{
+    width: 600px;
+    margin: auto;
+}
+
+.loremipsum{
+    text-align: center;
+    background-color: #efe6d2;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.loremipsum p{
+    margin-left: 15%;
+    margin-right:  15%;
+}
