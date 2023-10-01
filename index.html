@@ -4,39 +4,273 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROFIL SIDRA FEBRIAN HARDIYANTO</title>
-    <!-- Saya pakai style di dalam html sekalian biar nggak perlu upload 2 file -->
+    <title>MEMBUAT PORTFOLIO WEB SEDERHANA</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <link rel="stylesheet" href="css.css">
+    <style>
+        /* GLOBAL SETTINGS */
+
+        /* bintang(*) berarti untuk semua */
+        * {
+            font-family: "Poppins", sans-serif;
+        }
+        b{
+            color:#ff9567;
+        }
+        h1{
+            color: #00938d;
+        }
+        h2,h3,h4,h5,h6{
+            color:#00c1c0;
+        }
+
+        /* HEADER TAG="header-utomo" */
+        .header-utomo{
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 30px;
+            padding: auto;
+            justify-content: space-between;
+            display: flex;
+            align-items:center;
+            background-color: #ff9567;
+        }
+        .visitkrjcoid a{
+            color: #efe6d2;
+            font-size: 12px;
+            text-decoration: none;
+            margin: 10px;
+        }
+        .sosmed-header img{
+            width: 24px;
+            padding: auto;
+        }
+        .sosmed-header ul li{
+            position: relative;
+            display: inline;
+        }
+        
+
+        /* NAVBAR */
+        .navbar{
+            width: 100%;
+            height: 80px;
+            left: 0;
+            top: 30px;
+            justify-content: space-between;
+            position: fixed;
+            display: flex;
+            align-items:center;
+            background-color: #ffb461;
+            list-style: none;
+        }
+        .logo-header a{
+            text-decoration: none;
+            align-items: center;
+        }
+        .logo-header h1{
+            padding-left: 10px;
+            padding-bottom: 15px;
+        }
+        .navbar-menu ul li{
+            list-style: none;
+            position: relative;
+            display: inline;
+            padding: 10px;
+        }
+        .navbar-menu a{
+            text-decoration: none;
+            color: #00938d;
+        }
+
+
+
+        /* SECTION */
+        .section-kanan-div{
+            width: 320px;
+            float: right;
+            background-color: #efe6d2;
+            outline-color: #00938d;
+            outline-width: 30px;
+            padding: 5px 25px;
+        }
+        .section-kanan-div h2{
+            margin: 10px 0;
+        }
+        .section-kanan-div ul li a{
+            list-style: none;
+        }
+
+        /* HOTEST ARTICLE */
+        .hot-articles{
+            position: absolute;
+            margin-top: 10px;
+            width: 320px;
+            float: right;
+            background-color: #efe6d2;
+            outline-color: #00938d;
+            outline-width: 30px;
+            padding: 5px 25px;
+        }
+        .hot-articles h2{
+            margin: 10px 0;
+        }
+        .hot-articles ul li a{
+            list-style: none;
+        }
+
+        /* LATEST ARTICLE */
+        .latest-articles{
+            position: absolute;
+            margin-top: 10px;
+            width: 320px;
+            float: right;
+            background-color: #efe6d2;
+            outline-color: #00938d;
+            outline-width: 30px;
+            padding: 5px 25px;
+        }
+        .latest-articles h2{
+            margin: 10px 0;
+        }
+        .latest-articles ul li a{
+            list-style: none;
+        }
+
+        /* CONTENT */
+        .content{
+            width: 75%;
+            background-color: #efe6d2;
+            text-align: center;
+        }
+
+        #me img{
+            width: 350px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .keterampilan ul li{
+            list-style: none;
+        }
+
+        .pengalaman ul li{
+            list-style: none;
+        }
+
+        .project img{
+            width: 300px;
+            height: auto;
+        }
+        /*  */
+
+    </style>
 </head>
 
 <body>
-    <div class="title">
-        <img src="https://raw.githubusercontent.com/sidrafhardiyanto/sidrafhardiyanto.github.io/main/media/DSCN9529.JPG" class="gambarprofil" alt="">
-        <h1><b>SIDRA</b> FEBR<b>IAN</b> HARDIYANTO</h1>
-        <div class="link-keluar">
+    <header class="header-utomo">
+        <span class="visitkrjcoid">
+            <a href="https://karimunjawa.co.id" target="_blank">Mampir ke <b style="color: #00938d;">karimunjawa.co.id</b></a>
+        </span>
+        <span class="sosmed-header">
             <ul>
-                <li><a href="mailto:sidrafhardiyanto@karimunjawa.co.id"> <img src="https://raw.githubusercontent.com/sidrafhardiyanto/sidrafhardiyanto.github.io/main/media/icons8-mail-48.png"></a></li>
-                <li><a href="https://github.com/sidrafhardiyanto" target="_blank"><img src="https://raw.githubusercontent.com/sidrafhardiyanto/sidrafhardiyanto.github.io/main/media/icons8-github-48.png"></a></li>
-                <li><a href="https://wa.me/6285172190219" target="_blank"><img src="https://raw.githubusercontent.com/sidrafhardiyanto/sidrafhardiyanto.github.io/main/media/icons8-whatsapp-48.png"></a></li>
-                <li><a href="https://instagram.com/shitdra" target="_blank"><img src="https://raw.githubusercontent.com/sidrafhardiyanto/sidrafhardiyanto.github.io/main/media/icons8-instagram-48.png"></a></li>
+                <li><a href="https://facebook.com/brianibnhardiyanto"><img src="https://raw.githubusercontent.com/sidrafhardiyanto/sidrafhardiyanto.github.io/main/media/icons8-facebook-circled-48.png" alt=""></a></li>
+                <li><a href="https://instagram.com/shitdra"><img src="https://raw.githubusercontent.com/sidrafhardiyanto/sidrafhardiyanto.github.io/main/media/icons8-instagram-48.png" alt=""></a></li>
+                <li><a href="https://github.com/sidrafhardiyanto"><img src="https://raw.githubusercontent.com/sidrafhardiyanto/sidrafhardiyanto.github.io/main/media/icons8-github-48.png" alt=""></a></li>
+                <li><a href="https://facebook.com/brianibnhardiyanto"><img src="https://raw.githubusercontent.com/sidrafhardiyanto/sidrafhardiyanto.github.io/main/media/icons8-whatsapp-48.png" alt=""></a></li>
+            </ul>
+        </span>
+    </header>
+    
+    <nav class="navbar-utomo">
+        <div class="navbar">
+            <span class="logo-header">
+                <img src="" alt="">
+                <a href="https://sidrafhardiyanto.github.io"><h1>SIDRAFHARDIYANTO</h1></a>
+            </span>
+            <hr>
+            <span class="navbar-menu">
+                <ul>
+                    <li><a href="https://sidrafhardiyanto.github.io/">Home</a></li>
+                    <li><a href="https://sidrafhardiyanto.github.io/#biodata">Portfolio Dev</a></li>
+                    <li><a href="https://sidrafhardiyanto.github.io/#keterampilan">Paket Wisata</a></li>
+                    <li><a href="https://sidrafhardiyanto.github.io/#pengalaman">Paket Wisata</a></li>
+                    <li><a href="https://sidrafhardiyanto.github.io/#project">Paket Wisata</a></li>
+                </ul>
+            </span>
+        </div>
+    </nav>
+
+    <section class="section-kanan">
+        <div class="section-kanan-div">
+            <h2>Section</h2>
+            <ul>
+                <li><a href="https://sidrafhardiyanto.github.io">sidrafhardiyanto</a></li>
+                <li><a href="https://sidrafhardiyanto.github.io">sidrafhardiyanto</a></li>
+                <li><a href="https://sidrafhardiyanto.github.io">sidrafhardiyanto</a></li>
             </ul>
         </div>
-        <p>Saya biasa dipanggil <b>Sidra</b> atau <b>Ian</b>. Saat ini saya menempuh pendidikan di Universitas Nahdlatul Ulama Jepara di program studi Teknik Informatika (NIM: <b>221240001231</b>). Sembari kuliah, saya juga menjadi owner <a href="https://karimunjawa.co.id" target="_blank">karimunjawa.co.id</a>.</p>
-    </div>
-    <div class="loremipsum">
-        <h1>Lorem Ipsum</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At quisquam sequi reprehenderit eum voluptate illo, atque amet, architecto ad doloremque odit, tempore exercitationem dignissimos omnis quidem expedita dicta nesciunt deserunt.</p>
-        <p>Lorem Ipsa ea atque excepturi eaque porro nesciunt praesentium veritatis optio in, officia sed pariatur eum, a, possimus maiores repudiandae enim minus eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        <p>Harum consequatur odio distinctio ad, aspernatur veritatis! Magnam ullam velit, illum dolorum accusamus, porro eaque, molestias officia nesciunt autem cumque veniam tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <p>Ipsum at quos similique enim libero necessitatibus soluta quaerat. Dolore voluptates incidunt, amet culpa dolorem accusantium debitis, in, odit nisi numquam explicabo.</p>
-    </div>
-</body>
+    </section>
 
-<footer>
-    <div class="kopikanan">
-        <hr>
-        <p style="text-align: center;"><i>Kopirait ©2023 buat apa</i></p>
+    <!-- sticky -->
+    <article class="hot-articles">
+        <h2>Paling Banyak Dikunjungi</h2>
+        <ul>
+            <li><a href="https://sidrafhardiyanto.github.io">sidrafhardiyanto</a></li>
+            <li><a href="https://sidrafhardiyanto.github.io">sidrafhardiyanto</a></li>
+            <li><a href="https://sidrafhardiyanto.github.io">sidrafhardiyanto</a></li>
+        </ul>
+    </article>
+    <article class="latest-articles">
+        <h2>Artikel Terbaru</h2>
+        <ul>
+            <li><a href="https://sidrafhardiyanto.github.io">sidrafhardiyanto</a></li>
+            <li><a href="https://sidrafhardiyanto.github.io">sidrafhardiyanto</a></li>
+            <li><a href="https://sidrafhardiyanto.github.io">sidrafhardiyanto</a></li>
+        </ul>
+    </article>
+
+
+    <!-- LANDING PAGE CONTENT HERE -->
+    <div class="content">
+        <div class="me" id="me">
+            <img src="https://github.com/sidrafhardiyanto/sidrafhardiyanto.github.io/blob/main/media/DSCN9529.JPG?raw=true">
+            <h1><b>SIDRA</b> FEBR<b>IAN</b> HARDIYANTO</h1>
+            <p>Saya biasa dipanggil <b>Sidra</b> atau <b>Ian</b>. Saat ini saya menempuh pendidikan di Universitas Nahdlatul Ulama Jepara di program studi Teknik Informatika (NIM: <b>221240001231</b>). Sembari kuliah, saya juga menjadi owner <a href="https://karimunjawa.co.id" target="_blank" style="text-decoration: none;">karimunjawa.co.id</a>.</p>
+        </div>
+        <div class="biodata">
+            <h2>BIODATA</h2>
+            <p>Nama : Sidra Febrian Hardiyanto <br> NIM : 221240001231 <br> Telepon : +62 851 7219 0219</p>
+        </div>
+        <div class="keterampilan">
+            <h2>KETERAMPILAN</h2>
+            <ul>
+                <li>Bisa apa dan ngapain dan buat apa</li>
+                <li>Bisa apa dan ngapain dan buat apa</li>
+                <li>Bisa apa dan ngapain dan buat apa</li>
+            </ul>
+        </div>
+        <div class="pengalaman">
+            <h2>PENGALAMAN</h2>
+            <ul>
+                <li>Pernah ngapain aja 2010-2012</li>
+                <li>Pernah ngapain aja 2010-2012</li>
+                <li>Pernah ngapain aja 2010-2012</li>
+            </ul>
+        </div>
+        <div class="project">
+            <h2>PROJECTS</h2>
+            <img src="https://github.com/sidrafhardiyanto/sidrafhardiyanto.github.io/blob/main/media/DJI_0081.JPG?raw=true">
+                <p>Berperan sebagai tour operator pada family gathering di Karimunjawa dengan peserta 37 orang dari Hyundai Motor Indonesia Team Sealer & UBS.</p>
+                <p>Berperan sebagai tour operator pada family gathering di Karimunjawa dengan peserta 70 orang dari Berca Hardayaperkasa Team HR dan Engineer.</p>
+        </div>
     </div>
-</footer>
+
+
+    <footer>
+        <hr>
+        <p>Kopirait &copy; 2023</p>
+    </footer>
+</body>
 </html>
