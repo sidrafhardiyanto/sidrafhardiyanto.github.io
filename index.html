@@ -26,6 +26,7 @@
         /* HEADER TAG="header-utomo" */
         .header-utomo{
             position:fixed;
+            z-index: 1;
             top: 0;
             left: 0;
             width: 100%;
@@ -54,6 +55,7 @@
 
         /* NAVBAR */
         .navbar{
+            z-index: 1;
             width: 100%;
             height: 80px;
             left: 0;
@@ -88,7 +90,10 @@
 
         /* SECTION */
         .section-kanan-div{
-            width: 320px;
+            position: absolute;
+            width: 20%;
+            right: 0;
+            top: 14%;
             float: right;
             background-color: #efe6d2;
             outline-color: #00938d;
@@ -106,7 +111,9 @@
         .hot-articles{
             position: absolute;
             margin-top: 10px;
-            width: 320px;
+            right: 0;
+            top: 32.5%;
+            width: 20%;
             float: right;
             background-color: #efe6d2;
             outline-color: #00938d;
@@ -124,7 +131,9 @@
         .latest-articles{
             position: absolute;
             margin-top: 10px;
-            width: 320px;
+            top: 52%;
+            right: 0;
+            width: 20%;
             float: right;
             background-color: #efe6d2;
             outline-color: #00938d;
@@ -140,12 +149,14 @@
 
         /* CONTENT */
         .content{
+            margin-top: 120px;
             width: 75%;
             background-color: #efe6d2;
             text-align: center;
         }
 
         #me img{
+            margin-top: 5%;
             width: 350px;
             height: auto;
             border-radius: 10px;
@@ -193,10 +204,8 @@
             <span class="navbar-menu">
                 <ul>
                     <li><a href="https://sidrafhardiyanto.github.io/">Home</a></li>
-                    <li><a href="https://sidrafhardiyanto.github.io/#biodata">Portfolio Dev</a></li>
-                    <li><a href="https://sidrafhardiyanto.github.io/#keterampilan">Paket Wisata</a></li>
-                    <li><a href="https://sidrafhardiyanto.github.io/#pengalaman">Paket Wisata</a></li>
-                    <li><a href="https://sidrafhardiyanto.github.io/#project">Paket Wisata</a></li>
+                    <li><a href="https://sidrafhardiyanto.github.io/">Portfolio Dev</a></li>
+                    <li><a href="https://sidrafhardiyanto.github.io/">Paket Wisata</a></li>
                 </ul>
             </span>
         </div>
@@ -240,7 +249,7 @@
             <p>Saya biasa dipanggil <b>Sidra</b> atau <b>Ian</b>. Saat ini saya menempuh pendidikan di Universitas Nahdlatul Ulama Jepara di program studi Teknik Informatika (NIM: <b>221240001231</b>). Sembari kuliah, saya juga menjadi owner <a href="https://karimunjawa.co.id" target="_blank" style="text-decoration: none;">karimunjawa.co.id</a>.</p>
         </div>
         <div class="biodata">
-            <h2>BIODATA</h2>
+            <h2 id="biodata">BIODATA</h2>
             <p>Nama : Sidra Febrian Hardiyanto <br> NIM : 221240001231 <br> Telepon : +62 851 7219 0219</p>
         </div>
         <div class="keterampilan">
@@ -262,8 +271,9 @@
         <div class="project">
             <h2>PROJECTS</h2>
             <img src="https://github.com/sidrafhardiyanto/sidrafhardiyanto.github.io/blob/main/media/DJI_0081.JPG?raw=true">
-                <p>Berperan sebagai tour operator pada family gathering di Karimunjawa dengan peserta 37 orang dari Hyundai Motor Indonesia Team Sealer & UBS.</p>
-                <p>Berperan sebagai tour operator pada family gathering di Karimunjawa dengan peserta 70 orang dari Berca Hardayaperkasa Team HR dan Engineer.</p>
+            <p>Berperan sebagai tour operator pada family gathering di Karimunjawa dengan peserta 37 orang dari Hyundai Motor Indonesia Team Sealer & UBS.</p>
+            <img src="https://github.com/sidrafhardiyanto/sidrafhardiyanto.github.io/blob/main/media/DSC03692.JPG?raw=true" alt="">
+            <p>Berperan sebagai tour operator pada family gathering di Karimunjawa dengan peserta 70 orang dari Berca Hardayaperkasa Team HR dan Engineer.</p>
         </div>
     </div>
 
